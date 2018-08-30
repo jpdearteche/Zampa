@@ -1,0 +1,27 @@
+﻿@model ZMenuManagement.ZMenuItemManager
+            @foreach (ZMenuManagement.ZMenuItem item in Model.Menus)
+            {
+                <li class="nav-item dropdown">
+                    @if (item.Menus.Count > 0)
+                    {
+                        <a href="@item.MenuAction"
+                           class="nav-link dropdown-toggle"
+                           data-toggle="dropdown">
+                            @item.MenuTitle&nbsp;
+                            <span class="caret"></span>
+                        </a>
+                            <ul class="dropdown-menu">
+                                @foreach (ZMenuManagement.ZMenuItem subitem in item.Menus)
+                                {
+                                    <li >
+                                        <a class="dropdown-item"  href="@subitem.MenuAction">@subitem.MenuTitle</a>
+                                    </li>
+                                }
+                            </ul>
+                    }
+                    else
+                    {
+                        <a class="nav-link" href="@item.MenuAction">@item.MenuTitle</a>
+                    }
+                </li>
+            }

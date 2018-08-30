@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menus>
+  <Menu>
+    <MenuId>1</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Gestor Negocio</MenuTitle>
+    <DisplayOrder>10</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>2</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Alertas</MenuTitle>
+    <DisplayOrder>20</DisplayOrder>
+    <MenuAction>/Maintenance/Roles</MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>3</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Reportes</MenuTitle>
+    <DisplayOrder>30</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>4</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Parametros</MenuTitle>
+    <DisplayOrder>40</DisplayOrder>
+    <MenuAction>/Reports/Report1</MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>5</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Auditoria</MenuTitle>
+    <DisplayOrder>50</DisplayOrder>
+    <MenuAction>/Reports/Report2</MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>6</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Gastos</MenuTitle>
+    <DisplayOrder>60</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>7</MenuId>
+    <ParentMenuId>0</ParentMenuId>
+    <MenuTitle>Insumos</MenuTitle>
+    <DisplayOrder>70</DisplayOrder>
+    <MenuAction>/Lookup/LookupTables</MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>8</MenuId>
+    <ParentMenuId>1</ParentMenuId>
+    <MenuTitle>Usuarios</MenuTitle>
+    <DisplayOrder>80</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>9</MenuId>
+    <ParentMenuId>1</ParentMenuId>
+    <MenuTitle>Sectores</MenuTitle>
+    <DisplayOrder>11</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>10</MenuId>
+    <ParentMenuId>1</ParentMenuId>
+    <MenuTitle>Puestos</MenuTitle>
+    <DisplayOrder>12</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>11</MenuId>
+    <ParentMenuId>1</ParentMenuId>
+    <MenuTitle>Cajas</MenuTitle>
+    <DisplayOrder>13</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>12</MenuId>
+    <ParentMenuId>2</ParentMenuId>
+    <MenuTitle>Gestor Eventos</MenuTitle>
+    <DisplayOrder>21</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>13</MenuId>
+    <ParentMenuId>2</ParentMenuId>
+    <MenuTitle>Ver Alertas</MenuTitle>
+    <DisplayOrder>22</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>14</MenuId>
+    <ParentMenuId>4</ParentMenuId>
+    <MenuTitle>Parámetros del Sistema</MenuTitle>
+    <DisplayOrder>41</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>15</MenuId>
+    <ParentMenuId>5</ParentMenuId>
+    <MenuTitle>Gestor Acciones</MenuTitle>
+    <DisplayOrder>51</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>16</MenuId>
+    <ParentMenuId>5</ParentMenuId>
+    <MenuTitle>Visualizar Log</MenuTitle>
+    <DisplayOrder>52</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>17</MenuId>
+    <ParentMenuId>6</ParentMenuId>
+    <MenuTitle>Pedidos de Gastos</MenuTitle>
+    <DisplayOrder>61</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>18</MenuId>
+    <ParentMenuId>6</ParentMenuId>
+    <MenuTitle>Rendición de Gastos</MenuTitle>
+    <DisplayOrder>62</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>19</MenuId>
+    <ParentMenuId>7</ParentMenuId>
+    <MenuTitle>Gestor Proveedores</MenuTitle>
+    <DisplayOrder>71</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>20</MenuId>
+    <ParentMenuId>7</ParentMenuId>
+    <MenuTitle>Gestor Insumos</MenuTitle>
+    <DisplayOrder>72</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>21</MenuId>
+    <ParentMenuId>11</ParentMenuId>
+    <MenuTitle>Cajas</MenuTitle>
+    <DisplayOrder>14</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>22</MenuId>
+    <ParentMenuId>11</ParentMenuId>
+    <MenuTitle>Arqueo Cajas</MenuTitle>
+    <DisplayOrder>15</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+  <Menu>
+    <MenuId>23</MenuId>
+    <ParentMenuId>11</ParentMenuId>
+    <MenuTitle>Gestor Motivos</MenuTitle>
+    <DisplayOrder>16</DisplayOrder>
+    <MenuAction></MenuAction>
+  </Menu>
+</Menus>
